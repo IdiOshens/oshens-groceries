@@ -1,20 +1,19 @@
-# Create .gitignore file
-echo "# XAMPP specific" > .gitignore
-echo "*.log" >> .gitignore
-echo "*.tmp" >> .gitignore
-echo "" >> .gitignore
-echo "# IDE files" >> .gitignore
-echo ".vscode/" >> .gitignore
-echo ".idea/" >> .gitignore
-echo "*.iml" >> .gitignore
-echo "" >> .gitignore
-echo "# OS files" >> .gitignore
-echo "Thumbs.db" >> .gitignore
-echo ".DS_Store" >> .gitignore
-echo "" >> .gitignore
-echo "# Backup files" >> .gitignore
-echo "*.bak" >> .gitignore
-echo "*.swp" >> .gitignore
-echo "" >> .gitignore
-echo "# Database sensitive data" >> .gitignore
-echo "*.sqlite" >> .gitignore
+# XAMPP specific
+*.log
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Backup files
+*.bak
+*.swp
+
+# Database sensitive data
+*.sqlite
